@@ -1,6 +1,7 @@
+<div align="center" >
 <img src='./src/assets/images/logo_horizontal.png'>
-
-Aplicação em React Native que informa o Clima Atual e a Previsão de Temperatura do dia, consumindo a API WeatherAPI.
+</div><br>
+Aplicação em React Native que informa o Clima Atual e a Previsão de Temperatura do dia, consumindo a API WeatherAPI. <br>
 
 Funcionalidades do Projeto 
 - Pesquisa do Clima atual por meio da Cidade
@@ -10,17 +11,28 @@ Funcionalidades do Projeto
 
 Acesso ao Projeto 
 
-Informações Técnicas
-Expo - Versão: 6.0.6
-Node - Versão: 16.16.0
-npm - Versão: 8.19.2
+Informações Técnicas: <br>
+Expo - Versão: 6.0.6 <br>
+Node - Versão: 16.16.0 <br>
+npm - Versão: 8.19.2 <br>
 API - https://www.weatherapi.com/ 
 
 Como usar: 
 
-Clone o repositório git clone https://github.com/Sara-Lirio/ReactNativeTest.git
-Instale as dependências npm i 
-No terminal expo start --tunnel 
+Clone o repositório 
+```bash 
+  git clone https://github.com/Sara-Lirio/ReactNativeTest.git
+ ```
+Instale as dependências 
+```bash 
+npm i 
+ ```
+ 
+No terminal
+```bash  
+expo start --tunnel  
+```
+
 Para rodar a aplicação, você poderá usar o Android Studio ou Scanear o QR code no seu celular através do app Expo Go (Android)
 
 Limitações e Bugs encontrados
