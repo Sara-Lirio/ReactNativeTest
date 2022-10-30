@@ -26,7 +26,7 @@ const ModalForecast = ({ visible, onRequestClose, PressClose, wheatherForecast }
 
                             <View style={styles.containerBorder}>
                                 <View style={styles.tempBorder}>
-                                    <Text style={styles.temp}>{wheatherForecast.forecast.forecastday.maxtemp_c} °C</Text>
+                                    <Text style={styles.temp}>{wheatherForecast.forecast.forecastday.day.maxtemp_c} °C</Text>
                                 </View>
                             </View>
                             <Text style={styles.temp}> Previsão de : {wheatherForecast.forecastday} °C</Text>
