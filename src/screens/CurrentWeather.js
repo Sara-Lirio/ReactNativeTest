@@ -16,12 +16,10 @@ const CurrentWeather = () => {
       .then((response) => {
         if (response.status === 200) {
           return response.json()
-          console.log(response.json);
         };
       })
       .then((data) => {
         setWeatherForecast(data);
-        console.log(data);
       })
   }
 

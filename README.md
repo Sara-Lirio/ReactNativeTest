@@ -7,8 +7,6 @@ Funcionalidades do Projeto
 - Pesquisa do Clima atual por meio da Cidade
 - Pesquisa a Previsão do Tempo para o longo do dia
 
-
-
 Acesso ao Projeto 
 
 Informações Técnicas: <br>
@@ -36,8 +34,8 @@ expo start --tunnel
 Para rodar a aplicação, você poderá usar o Android Studio ou Scanear o QR code no seu celular através do app Expo Go (Android)
 
 Limitações e Bugs encontrados
-- Algumas buscas por cidades podem não ser a mesma cidade pretendida pelo usuário
-- Previsão apenas do dia atual
+- Algumas buscas por cidades podem não ser a mesma cidade pretendida pelo usuário;
+- Previsão do dia atual não está retornando;
 - Necessário o uso da internet para usar a aplicação
 
 Evolução do Sistema
