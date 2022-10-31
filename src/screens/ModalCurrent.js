@@ -3,8 +3,6 @@ import { Text, StyleSheet, Modal, Image, View } from 'react-native'
 import ButtonMain from '../components/Button/ButtonMain';
 
 const ModalCurrent = ({ visible, onRequestClose, PressClose, wheatherForecast }) => {
-
-
     return (
         <View
             style={styles.modal}>
@@ -84,11 +82,9 @@ const ModalCurrent = ({ visible, onRequestClose, PressClose, wheatherForecast })
                     ) : null
                 }
 
-
                 <View style={styles.btn} >
                     <ButtonMain button='Pesquisar novamente' onPress={PressClose} />
                 </View>
-
             </Modal>
         </View>
 
@@ -149,7 +145,6 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: '#1CA3EC',
         fontWeight: 'bold',
-
     },
     weather: {
         paddingLeft: 40,

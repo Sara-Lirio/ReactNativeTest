@@ -8,7 +8,7 @@ const Menu = ({ navigation }) => {
             <Image style={styles.image}
                 source={require('../assets/images/logo_1.png')} />
             <ButtonMain button='Clima agora' onPress={() => navigation.navigate("CurrentWeather")} />
-            <ButtonMain button='Clima hoje' onPress={() => navigation.navigate("Forecast")} />
+            <ButtonMain button='Previsão de hoje' onPress={() => navigation.navigate("Forecast")} />
         </View> 
     )
 }
